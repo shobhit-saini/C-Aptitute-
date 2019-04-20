@@ -1,0 +1,26 @@
+#include <stdio.h>
+int a=5;
+int b();
+int c();
+int d();
+int main()
+{
+    
+  int a=10;
+  b();
+    return 0;
+}
+b()
+{
+    int a=15;
+    c();
+}
+c()
+{
+    int a=20;
+    d();
+}
+d()
+{
+    printf("%d",a);
+}
